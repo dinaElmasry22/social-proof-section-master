@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | Social proof section</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Istok+Web:wght@700&family=Kumbh+Sans:wght@700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat&family=Nunito+Sans:wght@700;900&family=Open+Sans:wdth,wght@97.2,300;100,500&family=Outfit&display=swap');
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: 'League Spartan', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    main {
+      display: flex;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 3rem;
+      width: 100%;
+    }
+
+    .container {
+      width: calc(33%);
+
+    }
+
+    h1 {
+      color: hsl(300, 43%, 22%);
+      font-size: 2.8rem;
+      margin-bottom: 1.5rem;
+      width: 90%;
+    }
+
+    .para {
+      color: hsl(303, 10%, 53%);
+      line-height: 1.4rem;
+    }
+
+    aside {
+      width: calc(30%);
+    }
+
+    .five-stars {
+      color: hsl(300, 43%, 22%);
+    }
+
+    .rate-1,
+    .rate-2,
+    .rate-3 {
+      background-color: hsl(300, 24%, 96%);
+      padding: 1rem;
+      margin: 1.2rem auto;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-around;
+      font-weight: bold;
+    }
+
+    .rate-2 {
+      margin-left: 2rem;
+      margin-right: -2rem;
+    }
+
+    .rate-3 {
+      margin-left: 4rem;
+      margin-right: -4rem;
+    }
+
+    section {
+      display: flex;
+      /* width: 100%; */
+      justify-content: space-evenly;
+    }
+
+    .card {
+      background-color: antiquewhite;
+      width: 27%;
+      padding: 30px;
+      background-color: hsl(300, 43%, 22%);
+      border-radius: 5px;
+
+    }
+
+    .card-2 {
+      margin-top: 1rem;
+      margin-bottom: -1rem;
+    }
+
+    .card-3 {
+      margin-top: 2rem;
+      margin-bottom: -2rem;
+    }
+
+    .photo {
+      border-radius: 50%;
+      width: 45px;
+      margin-right: 20px;
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+
+    }
+
+    h2 {
+      color: white;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    span {
+      color: hsl(333, 80%, 67%);
+    }
+
+    .comments {
+      line-height: 1.3rem;
+      margin-top: 1.4rem;
+      color: white;
+    }
+
+    @media (max-width:600px) {
+      body {
+        min-height: 230vh;
+        width: 80%;
+        text-align: center;
+      }
+
+      main {
+        flex-direction: column;
+      }
+
+      .container {
+        width: 100%;
+      }
+
+      .para {
+        width: 90%;
+        margin-bottom: 2rem;
+      }
+
+      aside {
+        width: 100%;
+      }
+
+      .rate-1,
+      .rate-2,
+      .rate-3 {
+        margin: 1.5rem auto;
+        flex-direction: column;
+        height: 5.5rem;
+      }
+
+      section {
+        width: 100%;
+        flex-direction: column;
+
+      }
+
+      .card {
+        width: 100%;
+      }
+
+      .comments {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <main>
+      <div class="container">
+        <h1>10,000+ of our users love our products.</h1>
+        <p class="para">We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.
+        </p>
+      </div>
+
+      <aside>
+        <div class="rate-1">
+          <div>
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+          </div>
+          <p class="five-stars">Rating 5 stars in Reviews</p>
+        </div>
+        <div class="rate-2">
+          <div><img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+          </div>
+          <p class="five-stars">Rating 5 stars in Reviews</p>
+        </div>
+        <div class="rate-3">
+          <div>
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+            <img src="./images/icon-star.svg" alt="photo">
+          </div>
+          <p class="five-stars">Rating 5 stars in Reviews</p>
+        </div>
+      </aside>
+    </main>
+
+    <section>
+      <div class="card-1 card">
+        <div class="info">
+          <img src="./images/image-colton.jpg" class="photo" alt="photo">
+          <div>
+            <h2>Colton Smith</h2>
+            <span>Verified Buyer</span>
+          </div>
+        </div>
+        <p class="comments">"We needed the same printed design as the one we had ordered a week prior. Not only did they
+          find the original
+          order, but we also received it in time. Excellent!"</p>
+      </div>
+      <div class="card-2 card">
+        <div class="info">
+          <img src="./images/image-irene.jpg" class="photo" alt="photo">
+          <div>
+            <h2>Irene Roberts</h2>
+            <span>Verified Buyer</span>
+          </div>
+        </div>
+        <p class="comments">"Customer service is always excellent and very quick turn around. Completely delighted with
+          the simplicity of
+          the purchase and the speed of delivery."</p>
+      </div>
+      <div class="card-3 card">
+        <div class="info">
+          <img src="./images/image-anne.jpg" class="photo" alt="photo">
+          <div>
+            <h2>Anne Wallace</h2>
+            <span>Verified Buyer</span>
+          </div>
+        </div>
+        <p class="comments">"Put an order with this company and can only praise them for the very high standard. Will
+          definitely use them
+          again and recommend them to everyone! "</p>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>
