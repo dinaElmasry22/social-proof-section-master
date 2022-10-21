@@ -1,7 +1,6 @@
 # Frontend Mentor - Social proof section
 
-![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
-
+![image](https://user-images.githubusercontent.com/113911084/197236388-9c8e84c4-4184-4769-bf89-f32202b3c9dd.png)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
