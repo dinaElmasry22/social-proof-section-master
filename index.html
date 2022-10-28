@@ -83,7 +83,6 @@
 
     section {
       display: flex;
-      /* width: 100%; */
       justify-content: space-evenly;
     }
 
@@ -137,10 +136,13 @@
     @media (max-width:600px) {
       body {
         min-height: 230vh;
-        width: 80%;
+        width: 100%;
         text-align: center;
       }
 
+      .page {
+        width: 65vw;
+      }
       main {
         flex-direction: column;
       }
